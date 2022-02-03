@@ -60,7 +60,7 @@ export async function makeForkClient(
         chalk.yellow(
           `You are forking from block ${
             forkConfig.blockNumber
-          }, which has less than ${requiredConfirmations} confirmations, and will affect Hardhat Network's performance.
+          }, which has less than ${requiredConfirmations} confirmations, and123 will affect Hardhat Network's performance.
 Please use block number ${lastSafeBlock} or wait for the block to get ${
             requiredConfirmations - confirmations
           } more confirmations.`
